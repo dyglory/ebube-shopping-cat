@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+   --font-family: 'Poppins', sans-serif;
+   --dark-blue: #5518cf;
+   --light-blue: #1f93ff;
+
+   --color-white: #fff;
+   --color-dark: #333;
+
+   --color-grey: #eee;
+   --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+   --color-purple: #9d0191;
+   --color-orange: #ff7722;
+
+   --color-success: #28a745;
+   --color-danger: orangered;
+}
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: static;
+}
+
+.row{
+  display: flex;
+  position: static;
+  height: 123px;
+}
+
+.col-5 {
+  position: absolute;
+  border: 2px solid silver;
+  padding: 10px;
+  border-radius: 5px;
+  left: 0;
+  margin-left: 10px;
+  border-bottom-style: dotted;
+  width: 550px;
+  height: 404rem;
+  top: -0px;
+  margin-top: 485px;
+}
+
+.col-1.button.remove {
+  position: static;
+  bottom: 0;
+  right: 100px;
+  margin: 0px 40px;
+  padding-top: -90px;
+  width: 200px;
+}
+.row.center.remove {
+  align-items: center;
+  position: static;
+}
+
+.Products1 {
+  color: black;
+  position: absolute;
+  top: 0;
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: 200px;
+  margin-left: 800px;
+}
+
+.small {
+  position: relative;
+  max-height: 10rem;
+  bottom: 0;
+  padding: 0;
+  padding-top: 5px;
+  width: 150px;
+  margin: 0px 8px;
+}
+.hr {
+  margin-top: 20px;
+}
+.name {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin: 50px 0px;
+  width: 100px;
+  margin-left: 70px;
+  top: 0;
+  margin-top: 120px;
+}
+.price {
+  position: absolute;
+  margin: 0px 10px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 65px;
+  margin-left: 90px;
+
+}
+.button {
+  position: relative;
+  cursor: pointer;
+  font-size: 0.8rem;
+  padding: 20px;
+  margin: 0.1rem;
+  border-radius: 100px;
+  border: 0.1rem #404040 solid;
+  background-color: #ff0000;
+  color: #fff;
+  width: 45%;
+  padding-left: 5px;
+  margin-top: 100px;
+}
+.add {
+  background-color: #40c0f0;
+  position: absolute;
+  width: 2.5rem;
+  margin: 3px 20px;
+  height: 25px;
+  border: 1px solid #fff;
+  left: 110px;
+}
+
+.parent { 
+  position: relative;
+  border: 2px solid gray;
+  justify-content: center;
+  text-align: center;
+  top: 0;
+  text-align: center;
+  right: 0;
+  width: 250px;
+  height: 350px;
+  border-radius: 5px;
+  top: 170px;
+}
+
+.remove {
+  background-color: #ff0000;
+  position: relative;
+  width: 2.5rem;
+  border: 1px solid #fff;
+  padding: 7px;
+  padding-bottom: 18px;
+  padding-top: 5px;
+}
+
+.checkout {
+  border-radius: 5px;
+  border: 0.1rem #404040 solid;
+  background-color: red;
+  color: #fff;
+  width: 350px;
+  cursor: pointer;
+  margin: 0px 45px;
+  margin-top: 50px;
+  margin-left: 90px;
+  padding: 20px;
+  font-size: 25px;
+}
+.text-right {
+  text-align: right;
+  position: relative;
+  margin-left: 0px 73px;
+  right: -220px;
+  color: black;
+  font-size: 30px;
+}
+.col-2.text-right {
+  position: relative;
+  left: 50px;
+  color: black;
+}
+
+.col-1.text-right.parttwo {
+  margin: 0px 100px;
+  padding: 5px;
+  position: static;
+  font-size: 10px;
+
+}
+.col-3 {
+  position: absolute;
+  margin: 0px 0px;
+  font-size: 30px;
+}
+.col-1.text-right{
+  position: relative;
+  margin-left: 150px;
+  color: black;
+}
+.col-1 {
+  margin: 0px 40px;
+} 
+.col-30 {
+  position: relative;
+  margin-left: 280px;
+  top: 20px;
+} 
+.col-20 {
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 10px;
+}                     
+.underlined {
+  width: 535px;
+  position: relative;
+  margin: 30px 0px;
+  top: -30px;
+}
+.catItems {
+  margin-top: 5px;
+  padding: 4px;
+  text-align: center;
+}
+.parttwo {
+  font-size: 15px;
+  width: 100px;
+}
+.remove {
+  margin: -10px;
+  height: 15px;
+  text-align: center;
+}
+h2{
+  font-size: 25px;
+}
+
+.cartItems {
+  font-size: 40px;
+  margin-left: 140px;
+}
+.badge {
+  background-color: #ff0000;
+  position: absolute;
+  border: none;
+  color: #fff;
+  width: 3.5rem;
+  margin-left: 0px;
+  right: 10px;
+  margin-top: 40px;
+  padding: 5px;
+  top: 0;
+}
+.cart {
+  color: black;
+  position: absolute;
+  top: 0;
+  font-size: 30px;
+  margin: 0px 420px;
+  font-weight: bold;
+}
+.All {
+  width: 60vw;
+  margin: 5rem auto;
+  display: grid;
+  gap: 10rem;
+  margin-left: 600px;
+}
+@media screen and (min-width: 100px) {
+  .All {
+    grid-template-columns: repeat(3,0fr);
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (min-width: 100px) {
+  .all {
+      grid-template-columns: repeat(3,0fr);
+  }
+}
+
+.check {
+  color: #fff;
+  background-color: #28a745;
+  font-size: 20px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.paragraph1 {
+  width: 400px;
+  position: relative;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  height: 100px;
+  margin: -15px 15px;
+  top: 70px;
+  margin-left: 90px;
+}
+.paragraph2 {
+  width: 300px;
+  position: relative;
+  font-weight: bold;
+  color: lightcyan;
+  top: 30px;
+  text-align: center;
+  margin: 0px 47px;
+  font-size: 30px;
+  margin-left: 106px;
+}
+.hearts {
+  background-color: silver;
+  border-radius: 50%;
+  color: red;
+  padding: 20px;
+  position: absolute;
+  margin: 20px 110px;
+  font-size: 25px;
+  top: 40px;
+  margin-top: 100px;
+}
+.border {
+  border: 2px solid silver;
+  width: 500px;
+  height: 200px;
+  border-left: 10px;
+  margin-left: 10px;
+  border-top: 5px;
+}
+.all {
+  max-width: 100%;
+  width: 100%;
+  margin: 5rem auto;
+  display: grid;
+  gap: 5rem;
+}
+.all2 {
+  border: 1px solid grey;
+  width: 250px;
+  border-radius: 5px;
+  position: relative;
+  margin-left: 100px;
+  max-height: 350px;
+  height: 300px;
+}
+.BUTTONS {
+  background-color: RED;
+  border-radius: 5px;
+  border: 0px solid transparent;
+  width: 120px;
+  position: fixed;
+  position: sticky;
+  margin-left: 1200px;
+  padding: 5px;
+}
+
+.propsmessi {
+  position: static;
+  overflow: hidden;
+}
+
+.checkoutimage {
+  position: relative;
+  max-height: 8rem;
+  bottom: 0;
+  padding: 13px;
+  padding-top: 5px;
+  width: 150px;
+  margin: 10px 35px;
+  margin-left: 50px;
+}
+
+.subheading {
+  position: relative;
+  position: fixed;
+  text-align: center;
+  color: red;
+  margin: 0px 20px;
+  font-size: 40px;
+  top: 0;
+  margin-top: 50px;
+  left: 0;
+  margin-left:300px;
+}
+
+.checkoutpagename {
+  position: relative;
+  margin: 20px 10px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 80px;
+  font-size: 20px;
+}
+.checkoutpageprice {
+  position: absolute;
+  margin: 100px 0px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: 100px;
+  top: 0;
+  margin-top: 210px;
+}
+
+.hr-2 {
+  margin-top: 30px;
+}
+.cartisempty {
+  position: relative;
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.mee {
+  position: absolute;
+  width: 550px;
+  height: 350px;
+  color: #fff;
+  background-color: orangered;
+  margin-left: 10px;
+  border-radius: 5px;
+  top: 4475px;
+  margin-top: 60px;
+  font-size: 10px;
+  text-align: center;
+}
